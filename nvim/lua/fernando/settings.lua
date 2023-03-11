@@ -1,4 +1,3 @@
-
 -- Visuals:
 vim.opt.guicursor = 'i:hor20-Cursor/lCursor'
 vim.opt.wrap = false
@@ -22,7 +21,7 @@ vim.opt.updatetime = 50
 vim.opt.hidden = true
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv( "HOME" ) .. '/.config/nvim/undodir'
+vim.opt.undodir = os.getenv( "HOME" ) .. '/.vim/undodir'
 vim.opt.undofile = true
 
 
@@ -30,9 +29,8 @@ vim.opt.scrolloff = 8
 vim.opt.errorbells = false
 vim.opt.smartcase = true
 
-vim.opt.cmdheight = 2
+vim.opt.cmdheight = 3
 
 -- Colorscheme
 vim.cmd('colorscheme tokyonight')
-
 
